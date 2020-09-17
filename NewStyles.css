@@ -89,7 +89,8 @@ article{
   position: relative;
   right: 600px;
   height: 100%;
-  align-items: center
+  align-items: center;
+  transition: right 1s;
 }
 .sticky {
   position: sticky;
