@@ -1,0 +1,281 @@
+/* Global Variable */
+body{
+  margin: 0;
+  font-family: "Raleway";
+}
+nav{
+  background: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  height: 50px;
+  z-index: 1;
+}
+
+hr{
+  border-top: 5px solid #7b7b7b;
+  width: 16%;
+  margin-bottom: 110px;
+}
+
+article{
+  text-align: center;
+}
+
+/* .header__menu {
+  display: none;
+} */
+
+.barImage{
+  width: 32px;
+}
+
+/* Section intro */
+.containMyVideo{
+  overflow: hidden;
+}
+.myVideo{
+  /* width: 100%; */
+  display:block;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.rondell{
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* navBarFlex intro */
+.navBarFlexBox{
+  display: flex;
+}
+
+.myNav{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: large;
+}
+
+#blackBar div:hover{
+  color: indianred;
+}
+.navBar > a{
+  color: #04c2c9;
+}
+
+.navBar > a:hover{
+  color: indianred;
+}
+
+.navBar {
+  padding: 10px;
+  width: 90%;
+  font-weight: 600;
+
+}
+.pushNavText{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: 600px;
+  height: 100%;
+  align-items: center
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  transition: all 0.3s ease-out;
+}
+.home > a{
+  color: indianred;
+}
+.newFlexBox1{
+  width: 80%;
+}
+.newFlexBox2{
+  width: 12%;
+}
+.header__menu{
+  display: inline-block;
+}
+.bgColor{
+  background-color: #1b242f;
+}
+
+/* About Section */
+.about{
+  padding: 100px 0 130px 0;
+}
+.headers{
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 16px;
+  font-weight: bolder;
+}
+.aboutBoxes{
+  width: 50%;
+}
+.describeMyselfBox{
+  text-align: center;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: large;
+
+}
+.paragraphText{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+.boxes2{
+  width: 100%;
+}
+.skillsAndMe{
+  display: inline-block;
+  margin-top: 0;
+}
+.skillName{
+  width: 35%;
+  font-size: 12px;
+  background-color: #04c2c9;
+  height: 28px;
+}
+.innerSkillBar{
+  background-color: #00a1a7;
+}
+.skillBar{
+  background-color: #eee;
+  height: 28px;
+  color: white;
+  font-size: .79EM;
+  font-weight: 700;
+}
+.nameOfSkill{
+  position: relative;
+  top: 6px;
+  text-align: center;
+}
+.percentage{
+  position: relative;
+  left: 15px;
+  top: 4px;
+  COLOR: darkslategrey;
+}
+.spaceBar{
+  height: 12.5%;
+  margin-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.profilePic{
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 20%;
+}
+.aboutMeParagraph{
+  padding-right: 0;
+  padding-left: 0;
+}
+.skillsWOne{
+  width: 40%;
+}
+.skillsWTwo{
+  width: 64%;
+}
+.skillsWThree{
+  width: 45.5%;
+}
+.skillsWFour{
+  width: 79.8%;
+}
+.skillsWFive{
+  width: 53.5%;
+}
+/* Projects Section */
+.projects{
+  padding: 50px 0 100px 0;
+  background-image: linear-gradient(#efefef, white);
+}
+.projectContainer{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+.imageContainer{
+  width: 100%;
+}
+.projectImage{
+  width: 100%;
+  height: 100%;
+}
+.contactContent{
+  background-color: #273036;
+}
+.contactContent > h1{
+  color: white;
+  margin: 0;
+}
+.contactContent > hr {
+  margin-bottom: 50px;
+}
+.haveQuestions > p {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+.haveQuestions{
+  padding-bottom: 80px;
+}
+/* Footer Section */
+.contactHeader{
+  padding-top: 65px;
+}
+.socialMediaIcons{
+  display: flex;
+}
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.socialMediaIcons > p{
+  text-align: center;
+  margin: 0;
+  background-color: #1b242f;
+  padding: 50px 0 0 0;
+  width: 50%;
+}
+.copyRight > p {
+  color: white;
+  text-align: center;
+  margin: 0;
+  background-color: #1b242f;
+  padding: 20px 0 20px 0;
+}

@@ -1,0 +1,80 @@
+@media screen and (min-width: 600px) {
+  /* Home Video */
+  .rondell{
+    font-size: 2.3em;
+  }
+  /* navBarFlex intro */
+  .header__menu{
+    display: none;
+  }
+  .pushNavText{
+    position: initial;
+    padding-left: 16px;
+  }
+  .myNav{
+    flex-wrap: nowrap;
+  }
+  .navBar > a{
+    color: white;
+  }
+  .home > a{
+    color: indianred;
+  }
+
+  /* About Section */
+  #scrollAbout{
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .paragraphText{
+    font-size: 1em;
+  }
+  .skillName{
+    font-size: 1em;
+  }
+  .aboutMeParagraph {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  /* Projects Section */
+  .imageContainer{
+    width: 50%;
+  }
+  .projectContainer{
+    width: 97%;
+  }
+
+  /* Footer Section */
+
+}
+@media screen and (min-width: 960px) {
+  /* Home Video */
+  .rondell{
+    font-size: 3em;
+  }
+  /* navBarFlex intro */
+  /* About Section */
+  .paragraphText{
+    font-size: 1em;
+  }
+  .skillsAndMe{
+    display: flex;
+  }
+  .boxes2{
+    width: 50%;
+  }
+  .spaceBar{
+    height: 8.6%;
+  }
+  /* Projects Section */
+}
+@media screen and (min-width: 1170px) {
+  /* Projects Section */
+  .imageContainer{
+    width: 33.3%;
+  }
+  .projectContainer{
+    max-width: 1200px;
+  }
+}
