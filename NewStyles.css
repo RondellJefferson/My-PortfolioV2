@@ -1,3 +1,29 @@
+/* Animation On Scroll */
+.reveal{
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 3s all ease; 
+}
+
+.reveal.active{
+  transform: translateX(0);
+  opacity: 1 ; 
+}
+.aboutBoxes.reveal, .imageContainer.reveal{
+  position: relative;
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: 4s all ease; 
+  transition-delay: .2s;
+}
+.aboutBoxes.reveal.active, .imageContainer.reveal.active{
+  transform: translateY(0);
+  opacity: 1 ; 
+}
+
+
+
 /* Global Variable */
 body{
   margin: 0;
@@ -115,9 +141,10 @@ article{
 }
 
 /* About Section */
-.about{
-  padding: 100px 0 130px 0;
+.fullBar, .innerSkillBar{
+  width: 100%;
 }
+
 .headers{
   text-align: center;
   font-size: 2.5em;
@@ -191,21 +218,6 @@ article{
   padding-right: 0;
   padding-left: 0;
 }
-.skillsWOne{
-  width: 40%;
-}
-.skillsWTwo{
-  width: 64%;
-}
-.skillsWThree{
-  width: 45.5%;
-}
-.skillsWFour{
-  width: 79.8%;
-}
-.skillsWFive{
-  width: 53.5%;
-}
 /* Projects Section */
 .projects{
   padding: 50px 0 100px 0;
@@ -216,6 +228,16 @@ article{
   flex-wrap: wrap;
   margin: auto;
   width: 100%;
+}
+.innerProjectText h1{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transform: translateY(125px);
+  color: #fff;
+  font-size: 2.5em;
+  filter: drop-shadow(2px 4px 6px #000);
+
 }
 .imageContainer{
   width: 100%;
